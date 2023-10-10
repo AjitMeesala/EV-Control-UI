@@ -339,6 +339,9 @@ section {
 }
 
 #block, #circuit {
+  & img {
+    width: 90vw;
+  }
   & .card-bg {
     background: none;
     border: none;
