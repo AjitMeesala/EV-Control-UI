@@ -309,6 +309,9 @@ section {
 
 .card-body {
     color: antiquewhite;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .card-text {
@@ -340,7 +343,7 @@ section {
 
 #block, #circuit {
   & img {
-    width: 90vw;
+    width: 40vw;
   }
   & .card-bg {
     background: none;
@@ -355,6 +358,11 @@ section {
 /* Responsive */
 
 @media screen and (max-width: 576px) {
+    #block, #circuit {
+      & img {
+        width: 80vw;
+      }
+    }
     .carousel {
         width: 25rem;
     }
