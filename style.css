@@ -309,9 +309,14 @@ section {
 
 .card-body {
     color: antiquewhite;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+}
+
+#block, #circuit {
+    & .card-body {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
 }
 
 .card-text {
